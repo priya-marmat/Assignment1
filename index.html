@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagonal Triangle Colors Rectangle</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .diagonal-triangle {
+            background: linear-gradient(to bottom right, #4f13be 50%, #e4e1e1 50%);
+            /* Tailwind colors: blue-600 (#1d4ed8) and gray-300 (#d1d5db) */
+            height: 100%; /* Full height of the parent */
+            width: 100%; /* Full width of the parent */
+        }
+  
+    @keyframes rotate360 {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    .hover\:rotate-circle:hover .circle {
+        animation: rotate360 1s linear;
+    }
+
+
+    </style>
+</head>
+<body class="bg-gray">
+    <div  id="assignment" class="flex items-center justify-center h-screen bg-gray-100 ">
+        <div class="w-2/3 h-96">
+           <div class="diagonal-triangle absolute top-0 left-0">
+              <h1 class="text-white font-extrabold text-3xl ml-8 mt-9">Our Servises</h1>
+              <div class="w-2/3 flex justify-between mt-60 ml-40">
+                <div class="bg-white shadow-md rounded-lg p-4 w-2/4 m-2 flex flex-col items-center relative hover:rotate-circle">
+                  <div class="circle absolute top-[-2rem] bg-white rounded-full h-16 w-16 flex items-center justify-center border-4 border-blue-700">
+                      <span class="text-blue-700 text-3xl"><i class="fa-solid fa-mobile-screen"></i></span>
+                  </div>
+                  <h3 class=" font-bold text-xl my-2 text-blue-700">Emergencee Plumbing <br>Services</h3>
+                  <p class="text-gray-700">Our plumbing are ready to gobr
+                    24/7 hour emergencee. incliding <br>
+                    weekends and holidays 
+                  </p>
+              </div>
+              
+              <div class="bg-white shadow-md rounded-lg p-4 w-2/4 m-2 flex flex-col items-center relative hover:rotate-circle">
+                <div class="circle absolute top-[-2rem] bg-white rounded-full h-16 w-16 flex items-center justify-center border-4 border-blue-700">
+                    <span class="text-blue-700 text-3xl "><i class="fa-solid fa-faucet"></i></span>
+                </div>
+                <h3 class="text-lg font-bold my-2 text-blue-700">Plumbing and Drains</h3>
+                <p class="text-gray-700">As the largest plumbing and drain<br> company we make <br>thousand of repers every day</p>
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-4 w-2/4 m-2 flex flex-col items-center relative hover:rotate-circle">
+              <div class="circle absolute top-[-2rem] bg-white rounded-full h-16 w-16 flex items-center justify-center border-4 border-blue-700">
+                  <span class="text-blue-700 text-3xl"><i class="fa-solid fa-droplet"></i></span>
+              </div>
+              <h3 class="text-xl text-blue-700 font-bold my-2">Water Damage</h3>
+              <p class="text-gray-700">Our teams are ocupide with <br>state of the art extention <br>and clear equipment</p>
+          </div>
+          <div class="bg-white shadow-md rounded-lg p-4 w-2/4 m-2 flex flex-col items-center relative hover:rotate-circle">
+    <div class="circle absolute top-[-2rem] bg-white rounded-full h-16 w-16 flex items-center justify-center border-4 border-blue-700">
+        <span class="text-blue-700 text-3xl"><i class="fa-solid fa-temperature-arrow-down"></i></span>
+    </div>
+    <h3 class="text-xl font-bold text-blue-700 my-2">Water Heater</h3>
+    <p class="text-gray-700">Trust roto rooter for repaer and <br>rplasment of gas electric and tankless water heater</p>
+</div>
+
+            </div>
+        </div>
+    </div>
+     
+
+
+</body>
+</html>
+    

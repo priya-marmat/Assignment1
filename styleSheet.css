@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+            .border-left-500 {
+                border-left-width: 500px;
+                border-left-color: #D3D3D3; /* Tailwind gray-300 color */
+                border-left-style: solid;
+                box-sizing: border-box;
+            }
+        }      
+    
+
